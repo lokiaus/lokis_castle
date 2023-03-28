@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: auto;
+}
+
+.header,
+.hero-container,
+.footer {
+    background-color: #1F2937;
+}
+
+.header-logo,
+.hero-main {
+    color: #F9FAF8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.hero-secondary,
+.header a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-container {
+    display: flex;
+}
