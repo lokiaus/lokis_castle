@@ -126,3 +126,26 @@ body {
     font-style: normal;
     text-align: end;
 }
+
+.cta-container {
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.cta {
+    background-color: #3882F6;
+    width: 1000px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.cta-text {
+    color: #ffffff;
+}
+
+.footer {
+    padding: 40px;
+}
